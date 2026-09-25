@@ -1,4 +1,4 @@
-import { str_repeat } from '../utils/str_repeat.ts'
+import { str_repeat } from '../../utils/str_repeat.ts'
 
 export class ContaBancaria {
     public titular: string

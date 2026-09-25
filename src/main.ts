@@ -1,19 +1,11 @@
-import { Carro } from './classes/Carro.ts'
-import { ContaBancaria } from './classes/ContaBancaria.ts'
+import { Livro } from './classes/aula1/Livro.ts'
+import { Biblioteca } from './classes/aula2/Biblioteca.ts'
+import { Contador } from './classes/aula1/Contador.ts'
+import { Vampiro } from './classes/aula2/Vampiro.ts'
 
-// CLASSE CARRO
-const carro1 = new Carro("Siena", "MQW1023", 2024)
+const vampiro1 = new Vampiro('humanoide', 'Renan', 500,)
 
-// carro1.getInfoCarro()
-// carro1.ligarCarro()
-// carro1.getInfoCarro()
-// console.log('\n')
-// carro1.getInfoCarro()
-// carro1.desligarCarro()
-// carro1.getInfoCarro()
+// vampiro1.transformarEmHumano()
+// vampiro1.transformarEmMorcego()
 
-// CLASSE CONTABANCARIA
-const conta1 = new ContaBancaria("Renan", "12345", 100)
-
-conta1.getInfoConta()
-
+vampiro1.apresentar()

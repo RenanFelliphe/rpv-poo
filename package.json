@@ -3,6 +3,7 @@
   "name": "poo-aula1",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "dev": "node --experimental-strip-types --watch src/main.ts"
   },
